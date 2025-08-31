@@ -1,0 +1,13 @@
+[user]
+  name = manulzvz
+  email = manulzvz@gmail.com
+
+[core]
+  editor = code --wait
+
+[alias]
+  co = checkout
+  br = branch
+  cm = commit -m
+  st = status -sb
+  lg = log --oneline --graph --decorate
