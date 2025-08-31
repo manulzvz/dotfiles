@@ -1,0 +1,62 @@
+{
+  // ========================
+  // Editor: Behavior & Cursor
+  // ========================
+  "editor.formatOnSave": true,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.wordWrap": "on",
+  "editor.snippetSuggestions": "top",
+  "editor.linkedEditing": true,
+
+  // ========================
+  // Editor: Font & Layout
+  // ========================
+  "editor.lineHeight": 0,
+  "editor.fontSize": 23,
+  "editor.minimap.enabled": false,
+
+  // ========================
+  // Language-specific Formatters
+  // ========================
+  "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[handlebars]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[markdown]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+
+  // ========================
+  // UI & Workbench
+  // ========================
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "GitHub Dark",
+  "workbench.statusBar.visible": false,
+  "workbench.sideBar.location": "right",
+  "workbench.editor.showTabs": "none",
+
+  // ========================
+  // Terminal
+  // ========================
+  "terminal.integrated.fontSize": 17,
+
+  // ========================
+  // Extensions
+  // ========================
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+  "markdown-preview-enhanced.enablePreviewZenMode": true,
+  "chat.instructionsFilesLocations": {
+    ".github/instructions": true,
+    "/var/folders/g4/0pm2wqf555q1fnt8tjb6v9140000gn/T/postman-collections-post-response.instructions.md": true,
+    "/var/folders/g4/0pm2wqf555q1fnt8tjb6v9140000gn/T/postman-collections-pre-request.instructions.md": true,
+    "/var/folders/g4/0pm2wqf555q1fnt8tjb6v9140000gn/T/postman-folder-post-response.instructions.md": true,
+    "/var/folders/g4/0pm2wqf555q1fnt8tjb6v9140000gn/T/postman-folder-pre-request.instructions.md": true,
+    "/var/folders/g4/0pm2wqf555q1fnt8tjb6v9140000gn/T/postman-http-request-post-response.instructions.md": true,
+    "/var/folders/g4/0pm2wqf555q1fnt8tjb6v9140000gn/T/postman-http-request-pre-request.instructions.md": true
+  }
+}
