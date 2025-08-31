@@ -48,3 +48,21 @@ code --install-extension usernamehw.errorlens
 code --install-extension aaron-bond.better-comments
 
 echo "✅ Dev setup complete! Restart your terminal."
+
+# ------------------------------
+# Maintenance / Update Script
+# ------------------------------
+update_dev() {
+  echo "🔄 Updating Homebrew packages..."
+  brew update && brew upgrade && brew cleanup
+
+  echo "🔄 Updating global npm packages..."
+  npm update -g
+
+  echo "🔄 Updating VSCode extensions..."
+  code --list-extensions | xargs -L 1 echo "Updating:"
+
+  echo "✅ Update complete!"
+}
+
+echo "💡 To update your dev environment in the future, run: update_dev"
